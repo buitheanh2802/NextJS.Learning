@@ -2,14 +2,12 @@ import React from 'react';
 
 type Props = React.HTMLAttributes<HTMLDivElement> & {}
 
-const loading: React.FC<Props> = (props): React.ReactNode => {
-    console.log('loading.....');
-    
+const NotFound: React.FC<Props> = (props): React.ReactNode => {
     return (
         <React.Fragment>
-            loading file...
+            hello notfound
         </React.Fragment>
     )
 };
 
-export default loading;
+export default NotFound;
